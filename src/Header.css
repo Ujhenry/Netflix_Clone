@@ -1,0 +1,174 @@
+.container{
+    overflow-x: hidden;
+    font-size: 16px;
+}
+
+.header_wrapper{
+    background-color: transparent;
+    position: relative;
+    z-index: 10;
+    display: flex;
+}
+.header{
+    margin: 0 5%;
+    position: relative;
+    height: 100%;
+}
+.header_logo{
+    
+    width: 13%;
+}
+.Screen_Text{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+.authLinks-redButton{
+    font-size: 1rem;
+    margin-top: 2rem;
+    padding: .25rem .5rem;
+    background-color: #e50914;
+    float: right;
+    color: #fff;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.hero-card{
+    padding: 70px 45px;
+    color: #fff;
+}
+.card-background{
+    z-index: 0;
+    position: absolute;
+    top: -75px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    border-bottom: 10px solid #222;
+}
+.img-wrapper{
+    bottom: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;  
+}
+.img-creative{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: none;
+    border: 0;
+
+}
+.img-gradient{
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 40%,rgba(0,0,0,0) 75%,rgba(0,0,0,.8) 100%);
+    background: rgba(0,0,0,.4);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.text{
+    padding: 0;
+    position: relative;
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+    font-size: 1..125rem;
+    font-weight: 400;
+    color: #fff;
+}
+.text-tittle{
+    font-size: 3rem;
+    max-height: 640px;
+    margin: 0 auto;
+
+}
+.text-subtitle{
+    font-size: 2rem;
+    margin: 1rem auto;
+    max-width: 640px;
+}
+.email-form{
+    flex-direction: column;
+}
+.email-tittle{
+    padding: 0 5%;
+    max-width: 450px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+}
+.email-form2{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.email-container{
+    margin: 10px auto;
+    max-width: 500px;
+    position: relative;
+}
+.placement{
+    position: relative;
+}
+label{
+    cursor: default;
+}
+.textfield{
+    height: 60px;
+    padding: 10px 10px 0;
+    width: 100%;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: solid 1px #8c8c8c;
+    border-radius: 2px;
+    display: block;
+    appearance: none;
+    color: #000;
+    line-height: normal;
+    margin: 0;
+    font: inherit;
+}
+.placelabel{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    color: #8c8c8c;
+    font-size: 14px;
+    transition: font .1s ease,top .1s;
+    transform: translateY(-50%);
+}
+.container-wrap{
+    float: none;
+}
+.btn-red{
+    font-size: 1rem;
+    color: #fff;
+    background-color: #E50914;
+    vertical-align: middle;
+    font-weight: 400;
+    letter-spacing: .1px;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 0;
+    padding: 10px;
+    margin-top: 15px;
+}
+.btn-text{
+    text-align: center;
+}
+
+.center-pixel{
+    top: 50%;
+    left: 50%;
+}
+
