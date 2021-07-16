@@ -9,10 +9,10 @@ function Header() {
             <div className ="header_wrapper">
                 <div className="header">
                     <span className="logo">
-                        <img className="header_logo" src={Logo}/>
+                        <img className="header_logo" src={Logo} alt="" />
                         <span className="Screen_Text">NetFlix</span>
                     </span>
-                    <a href="" className="authLinks-redButton">Sign In</a>
+                    <a href="www.google.com" className="authLinks-redButton">Sign In</a>
                 </div>
             </div>
         
@@ -37,7 +37,7 @@ function Header() {
                     <div className="email-form2">
                                 <div className="email-container"></div>
                                 <div className="placement">
-                                <label class="input_id" placeholder="email">
+                                <label className="input_id" placeholder="email">
                                     <input type="Email" name="email" class="textfield" maxLength="50" minLength="5"></input>
                                      <label for ="id-email" class="placelabel" >Email Adress</label>
                                 </label>
@@ -53,10 +53,10 @@ function Header() {
                         </div>
                     </div>
                 </form>
-                <h3 id="" class="card-disclaimer"></h3>
+                <h3 className="card-disclaimer"></h3>
 
              </div>
-             <div class="center-pixel"></div>     
+             <div className="center-pixel"></div>     
         </div>
 
         

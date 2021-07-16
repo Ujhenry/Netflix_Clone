@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Header from './Header';
-import Row_Below from './Row_Below';
+import RowBelow from './Row_Below';
 import Row from './Row';
 import Faq from './Faq';
 import Row3 from './Row3';
@@ -18,7 +18,7 @@ function App() {
 
             <Route path ="/">
                 <Header/>
-                <Row_Below/>
+                <RowBelow/>
                 <Row/>
                 <Row3/>
                 <Row4/>

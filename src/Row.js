@@ -13,20 +13,20 @@ function Row() {
                       <h2  className="row5_subtittle">Save your favorites easily and always have something to watch.</h2>
                 </div>
                     <div className="img2-container">
-                             <img className="card-img" src={mobile}/>
+                             <img className="card-img" src={mobile} alt="" />
                                   <div className="animation">
                                        <div className="animation-image">
-                                           <img className="mg" src={boxshot}/>
+                                           <img className="mg" src={boxshot} alt="" />
 
                                         </div>
                                            <div className="animation-text">
-                                               <div className="text-0">Stranger Things</div>
-                                               <div className="text-1">Downloading...</div>
+                                               <div className="text-0"></div>
+                                               <div className="text-1"></div>
                                     </div>
                     
                     </div>
                 </div>
-                        <div class="center-pixel"></div>
+                        <div className="center-pixel"></div>
                     </div>
         </div>
 

@@ -14,7 +14,7 @@ function Row_Below() {
 
     
                     <div className="img-container">
-                        <img className="img1"  src={nettv}/>
+                        <img className="img1"  src={nettv} alt="" />
                             <div className="below-animation">
                                 <video src={netflixvideo}>
                                     
