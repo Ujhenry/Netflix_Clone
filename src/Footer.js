@@ -29,7 +29,7 @@ function Footer() {
                     <a className="footer-link" href="https://help.netflix.com/legal/privacy" placeholder="footer_responsive_link_privacy_separate_link">
                     <span className="">Privacy</span></a></li>
                 <li className="footer-link-item" placeholder="footer_responsive_link_cookies_separate_link_item">
-                    <a className="footer-link" href="#" placeholder="footer_responsive_link_cookies_separate_link">
+                    <a className="footer-link" href="www.google.com" placeholder="footer_responsive_link_cookies_separate_link">
                     <span className="">Cookie Preferences</span></a></li>
                 <li className="footer-link-item" placeholder="footer_responsive_link_corporate_information_item">
                     <a className="footer-link" href="https://help.netflix.com/legal/corpinfo" placeholder="footer_responsive_link_corporate_information">

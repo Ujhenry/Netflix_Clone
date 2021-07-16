@@ -53,7 +53,7 @@ function Header() {
                         </div>
                     </div>
                 </form>
-                <h3 className="card-disclaimer"></h3>
+                <h3 className="card-disclaimer">.</h3>
 
              </div>
              <div className="center-pixel"></div>     
